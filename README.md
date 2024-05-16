@@ -1,6 +1,8 @@
 # tmux-config
 My [tmux](https://github.com/tmux/tmux) config file for modern color theme and vim like pane navigator that works seamlessly with my [Neovim](https://github.com/faizan2786/NVChad) config.
 
+## Showcase
+![Screenshot](showcase.png)
 
 ## How to use
 - Install `tmux` using your favourite package manager i.e. for MacOS use below command:
