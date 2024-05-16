@@ -16,8 +16,11 @@ My [tmux](https://github.com/tmux/tmux) config file for modern color theme and v
 - Download `tmux.config` file from this repo and move it to your `<config_dir>/tmux/` location. i.e. in `~/.config/tmux/` dir.
 
 - Start a new tmux session i.e. by running `tmux` command in your terminal
-- Now, type this in your terminal for config to take effect.
+- Run below command
   ```zsh
-  tmux source ~/.tmux.conf
+  tmux source ~/.config/tmux/tmux.conf
   ```
+    - This will apply the downloaded config to tmux.
+- Now, type `<Ctrl+b>` followed by `<Shift+I>`
+  - This will trigger TPM to install all the plugins in the config file.
 - And... **that's it** - enjoy your new tmux setup!
